@@ -1,9 +1,9 @@
 # Python-图片隐写术
 
 安装与运行（ubuntu16.04）
----
+----
 
-###1、安装包
+1、安装包
 
 本实验用到了 pillow 这个模块，在安装它前更新源
 ```
@@ -27,7 +27,8 @@ $ sudo apt-get install libtiff5-dev libjpeg8-dev zlib1g-dev \
 $ sudo pip3 install Pillow
 ```
 
-###2、运行程序
+
+2、运行程序
 
 
 ```
