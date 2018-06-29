@@ -30,6 +30,7 @@ $ sudo pip3 install Pillow
 
 2、运行程序
 
+
 ```
 usage: steganography.py [-h] [-s STRING] [-m MODE] [-o OUTPUT] filename
 
@@ -47,6 +48,16 @@ optional arguments:
   -o OUTPUT, --output OUTPUT
                         Directory of output picture.
 
+```
+
+```
+e.g.
+
+encode:
+$ python3 -s "hello world!" -o encodeImage.png -m encode coffee.png
+
+decode:
+$ python3 -m decode encodeImage.png
 ```
                
                
