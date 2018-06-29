@@ -30,21 +30,24 @@ $ sudo pip3 install Pillow
 
 2、运行程序
 
-usage: steganography.py　[-h]　[-s STRING]　[-m MODE]　[-o OUTPUT]　filename<br>
+```
+usage: steganography.py [-h] [-s STRING] [-m MODE] [-o OUTPUT] filename
 
-please choose mode(encode/decode). If you choose [encode] please enter<br>
+Please choose mode(encode/decode). If you choose [encode] please enter
 filename and the description of picture else please enter filename only.
 
-positional arguments:<br>
-　filename
+positional arguments:
+  filename
 
-optional arguments:<br>
-  -h, --help　　　　　　　show this help message and exit.<br>
-  -s STRING, --string STRING<br>
-  　　　　　　　　　　　　　the description for picture.<br>
-  -m MODE, --mode MODE　　encode or decode.<br>
-  -o OUTPUT, --output OUTPUT<br>
-  　　　　　　　　　　　　　Directory of output picture.<br>
+optional arguments:
+  -h, --help            show this help message and exit
+  -s STRING, --string STRING
+                        Description of the picture.
+  -m MODE, --mode MODE  encode or decode.
+  -o OUTPUT, --output OUTPUT
+                        Directory of output picture.
+
+```
                
                
 
