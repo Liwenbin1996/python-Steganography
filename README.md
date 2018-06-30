@@ -59,6 +59,8 @@ $ python3 -s "hello world!" -o encodeImage.png -m encode coffee.png
 decode:
 $ python3 -m decode encodeImage.png
 ```
+
+本项目源自实验楼https://www.shiyanlou.com/courses/651
                
                
 
